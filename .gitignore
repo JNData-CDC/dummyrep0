@@ -132,4 +132,4 @@ dmypy.json
 .idea/
 
 # output directory for artifacts, not version controlled
-data/
+artifacts/*.json

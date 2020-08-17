@@ -7,7 +7,7 @@ filename = f"{str(timestamp).split('.')[0]}.json"
 
 x = {'datetime': str(now), 'timestamp': str(timestamp)}
 
-with open(f'data/{filename}', mode='w', encoding='utf-8') as fp:
+with open(f'artifacts/{filename}', mode='w', encoding='utf-8') as fp:
     json.dump(x, fp)
 
-print(f'Results written to file: data/{filename}')
+print(f'Results written to file: artifacts/{filename}')
